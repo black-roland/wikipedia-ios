@@ -37,9 +37,7 @@ module.exports = function (grunt) {
         },
         files: [
           {
-            src: [
-              'less/**/*.less'
-            ],
+            src: 'less/**/*.less',
             dest: `${distFolder}styleoverrides.css`
           }
         ]
